@@ -2,8 +2,7 @@ name: Deployment for ronggur.com
 on:
   pull_request:
     branches: [ main ]
-  workflow_dispatch:
-
+  
 jobs:
   build:
     if: github.event.pull_request.merged == true
